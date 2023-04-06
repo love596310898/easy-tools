@@ -1,0 +1,17 @@
+{
+  "name": "easy-tools",
+  "version": "1.0.0",
+  "description": "a js tool libry with simple、easy and useful",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "easy-tools"
+  ],
+  "author": "hickey",
+  "license": "ISC"
+}
