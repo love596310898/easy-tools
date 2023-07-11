@@ -1,1 +1,1 @@
-module.exports = require("./lib/easy-tools.umd.js");
+export * from './lib/hickey-tools.esm.js'

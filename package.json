@@ -1,16 +1,18 @@
 {
   "name": "hickey-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a js tool libry with simple、easy and useful",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup --config rollup.config.js",
+    "publish": "npm publish --registry https://registry.npmjs.org"
   },
   "keywords": [
-    "easy-tools"
+    "hickey-tools"
   ],
   "author": "hickey",
   "license": "ISC"
